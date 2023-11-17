@@ -11,15 +11,18 @@
       <h1>Register Form</h1>
       <form action="#" class="form-container" id="form">
         <div class="form-control" id="form-control">
+          <input type="text" id="email" required />
+          <label for="username">Email</label>
+        </div>
+
+        <div class="form-control" id="form-control">
           <input type="text" id="username" required />
           <label for="username">Username</label>
-          <small id="small">Error</small>
         </div>
 
         <div class="form-control" id="form-control">
           <input type="password" id="password" class="password" required />
           <label for="password">Password</label>
-          <small id="small">Error</small>
         </div>
 
         <div class="form-control" id="form-control">
@@ -30,7 +33,6 @@
             required
           />
           <label for="confirmPassword">Confirm Password</label>
-          <small id="small">Error</small>
         </div>
       </form>
 
